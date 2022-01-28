@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>my first project</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="panel active" style="background-image:url('./image/jpg_1.jpg')">
+            <h2>jpg_1</h2>
+        </div>
+        <div class="panel" style="background-image:url('./image/jpg_2.jpg'); background-position: center; background-size: cover;">
+            <h2>jpg_2</h2>
+        </div>
+        <div class="panel" style="background-image:url('./image/jpg_3.jpg')">
+            <h2>jpg_3</h2>
+        </div>
+        <div class="panel" style="background-image:url('./image/jpg_4.jpg')">
+            <h2>jpg_4</h2>
+        </div>
+        <div class="panel" style="background-image:url('./image/jpg_5.jpg')">
+            <h2>jpg_5</h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
